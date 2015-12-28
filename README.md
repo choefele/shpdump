@@ -1,5 +1,13 @@
 # shpdump
-Tool to dump information contained in [shapefiles](https://en.wikipedia.org/wiki/Shapefile#Mixing_shape_types)
+Tool to dump information contained in [shapefiles](https://en.wikipedia.org/wiki/Shapefile#Mixing_shape_types). This is a Swift port of the tool that's part of [shapelib](http://shapelib.maptools.org/shapelib-tools.html#shpdump).
+
+## Build
+```
+brew install shapelib
+swift build
+```
+
+## Run
 
 ```
 $ .build/debug/shpdump lines
@@ -15,4 +23,4 @@ Shape:Arc  nVertices=12, nParts=1
 Shape:Arc  nVertices=12, nParts=1
 ```
 
-Swift port of the tool that's part of [shapelib](http://shapelib.maptools.org/shapelib-tools.html#shpdump)
+
