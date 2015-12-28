@@ -2,6 +2,7 @@
 Tool to dump information contained in [shapefiles](https://en.wikipedia.org/wiki/Shapefile#Mixing_shape_types). This is a Swift port of the tool that's part of [shapelib](http://shapelib.maptools.org/shapelib-tools.html#shpdump).
 
 ## Build
+You need to have Swift installed either via `brew install swift` or from `swift.org`
 ```
 brew install shapelib
 swift build
